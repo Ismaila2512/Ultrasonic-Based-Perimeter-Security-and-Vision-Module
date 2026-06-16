@@ -1,0 +1,23 @@
+numpy
+pandas
+scikit-learn
+tensorflow  
+scapy
+matplotlib
+seaborn
+plotly
+joblib
+docker
+requests
+jupyter
+
+
+#Folder Name - cyberverse
+
+# Step-1  python3 -m venv venv
+
+# Step-2  source venv/bin/activate
+
+# Step-3 pip install -r requirements.txt
+
+# Step-4 python test.py
