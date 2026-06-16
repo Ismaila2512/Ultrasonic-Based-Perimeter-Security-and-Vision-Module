@@ -1,0 +1,29 @@
+{
+  "allowedPorts": {
+    "description": "Hospital-standard ports to monitor (no blocking, just logging)",
+    "ports": [
+      80,    
+      443,   
+      104,   
+      2575,  
+      161,   
+      162,   
+      53     
+    ]
+  },
+  "suspiciousPorts": {
+    "description": "Ports to auto-quarantine/block (e.g., backdoors, unused RDP)",
+    "ports": [
+      4444,  
+      31337, 
+      12345, 
+      3389,  
+      6667,  
+      445    
+    ]
+  },
+  "hospitalNotes": "Customize for your network. Add ports for specific devices (e.g., 9100 for printers). Review weekly."
+}
+
+
+
