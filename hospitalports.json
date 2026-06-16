@@ -1,0 +1,26 @@
+{
+  "allowedPorts": {
+    "description": "Hospital-standard ports",
+    "ports": [
+      80,
+      443,
+      104,
+      2575,
+      161,
+      162,
+      53
+    ]
+  },
+  "suspiciousPorts": {
+    "description": "Ports to quarantine/block",
+    "ports": [
+      4444,
+      31337,
+      12345,
+      3389,
+      6667,
+      445
+    ]
+  },
+  "hospitalNotes": "Customize for your network. Add ports for specific devices (e.g., 9100 for printers)."
+}
